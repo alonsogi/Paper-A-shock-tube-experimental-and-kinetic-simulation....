@@ -5,7 +5,7 @@ file-authors:
 file-version:
 chemked-version:
 reference:
-  doi:
+  doi: 10.1016/j.heliyon.2024.e34204 
   authors:
     - name: Ziwen Zhao
     - name: Yeteng Wang
@@ -14,10 +14,10 @@ reference:
     - name: Yang Zhang
     - name: Fengqi Zhao
     - name: Quan-De Wang
-  journal: A shock-tube experimental and kinetic simulation study on the autoignition of methane at ultra-lean and lean conditions  
+  journal: Heliyon - A Cell Press journal
   year: 2024
   volume: 10
-  pages:
+  pages: e34204
   detail: This is an experimental and kinetic simulation study on the autoignition of methane at ultra-lean and lean conditions relevant to coalbed methane utilization.
 experiment-type: ignition delay
 apparatus:
@@ -30,10 +30,18 @@ common-properties:
       - species-name: Methane
         InChI: 1S/CH4/h1H4
         amount:
-          - 1.0
+          - 0.01039
+      - species-name: Oxygen 
+        InChI: 1S/O2/c1-2
+        amount:
+          - 0.20782
+     - species-name: Nitrogen
+        InChI:1S/N2/c1-2
+        amount:
+          - 0.78179
   ignition-type: &ign
-    target:
-    type:
+    target: Pressure
+    type: d/dt max
 datapoints:
   - temperature:
       -1331.4 kelvin
@@ -41,7 +49,7 @@ datapoints:
       - 962 us
     pressure:
       - 10.519 atm
-    composition: CH4:1.039 mol%, O2:20.782 mol%, N2:78.179 mol%
+    composition: *comp
     ignition-type: *ign
     equivalence-ratio: 1.0
   - temperature:
@@ -50,7 +58,7 @@ datapoints:
       - 647 us
     pressure:
       - 10.078 atm
-    composition: CH4:1.039 mol%, O2:20.782 mol%, N2:78.179 mol%
+    composition: *comp
     ignition-type: *ign
     equivalence-ratio: 1.0
   - temperature:
@@ -59,7 +67,7 @@ datapoints:
       - 530 us
     pressure:
       - 9.759 atm
-    composition: CH4:1.039 mol%, O2:20.782 mol%, N2:78.179 mol%
+    composition: *comp
     ignition-type: *ign
     equivalence-ratio: 1.0
   - temperature:
@@ -68,7 +76,7 @@ datapoints:
       - 330 us
     pressure:
       - 9.724 atm
-    composition: CH4:1.039 mol%, O2:20.782 mol%, N2:78.179 mol%
+    composition: *comp
     ignition-type: *ign
     equivalence-ratio: 1.0
   - temperature:
@@ -77,7 +85,7 @@ datapoints:
       - 180 us
     pressure:
       - 10.262 atm
-    composition: CH4:1.039 mol%, O2:20.782 mol%, N2:78.179 mol%
+    composition: *comp
     ignition-type: *ign
     equivalence-ratio: 1.0
   - temperature:
@@ -86,7 +94,7 @@ datapoints:
       - 143 us
     pressure:
       - 10.102 atm
-    composition: CH4:1.039 mol%, O2:20.782 mol%, N2:78.179 mol%
+    composition: *comp
     ignition-type: *ign
     equivalence-ratio: 1.0
   - temperature:
@@ -95,7 +103,7 @@ datapoints:
       - 105 us
     pressure:
       - 10.155 atm
-    composition: CH4:1.039 mol%, O2:20.782 mol%, N2:78.179 mol%
+    composition: *comp
     ignition-type: *ign
     equivalence-ratio: 1.0
   - temperature:
@@ -104,7 +112,7 @@ datapoints:
       - 85 us
     pressure:
       - 10.728 atm
-    composition: CH4:1.039 mol%, O2:20.782 mol%, N2:78.179 mol%
+    composition: *comp
     ignition-type: *ign
     equivalence-ratio: 1.0
   - temperature:
@@ -113,17 +121,16 @@ datapoints:
       - 72 us
     pressure:
       - 9.964 atm
-    composition: CH4:1.039 mol%, O2:20.782 mol%, N2:78.179 mol%
+    composition: *comp
     ignition-type: *ign
     equivalence-ratio: 1.0
-~~~~~
   - temperature:
       - 1393.1 kelvin
     ignition-delay:
       - 919 us
     pressure:
       - 1.982 atm
-    composition: CH4:1.039 mol%, O2:20.782 mol%, N2:78.179 mol%
+    composition: *comp
     ignition-type: *ign
     equivalence-ratio: 1.0
  - temperature:
@@ -132,7 +139,7 @@ datapoints:
       - 670 us
     pressure:
       - 1.99 atm
-    composition: CH4:1.039 mol%, O2:20.782 mol%, N2:78.179 mol%
+    composition: *comp
     ignition-type: *ign
     equivalence-ratio: 1.0
   - temperature:
@@ -141,7 +148,7 @@ datapoints:
       - 40 us
     pressure:
       - 2.011 atm
-    composition: CH4:1.039 mol%, O2:20.782 mol%, N2:78.179 mol%
+    composition: *comp
     ignition-type: *ign
     equivalence-ratio: 1.0
   - temperature:
@@ -150,7 +157,7 @@ datapoints:
       - 265 us
     pressure:
       - 2.038 atm
-    composition: CH4:1.039 mol%, O2:20.782 mol%, N2:78.179 mol%
+    composition: *comp
     ignition-type: *ign
     equivalence-ratio: 1.0
   - temperature:
@@ -159,7 +166,7 @@ datapoints:
       - 187 us
     pressure:
       - 2.048 atm
-    composition: CH4:1.039 mol%, O2:20.782 mol%, N2:78.179 mol%
+    composition: *comp
     ignition-type: *ign
     equivalence-ratio: 1.0
   - temperature:
@@ -168,7 +175,7 @@ datapoints:
       - 167 us
     pressure:
       - 1.888 atm
-    composition: CH4:1.039 mol%, O2:20.782 mol%, N2:78.179 mol%
+    composition: *comp
     ignition-type: *ign
     equivalence-ratio: 1.0
 - temperature:
@@ -177,7 +184,7 @@ datapoints:
       - 104 us
     pressure:
       - 2.048 atm
-    composition: CH4:1.039 mol%, O2:20.782 mol%, N2:78.179 mol%
+    composition: *comp
     ignition-type: *ign
     equivalence-ratio: 1.0
   - temperature:
@@ -186,12 +193,9 @@ datapoints:
       - 70 us
     pressure:
       - 1.954 atm
-    composition: CH4:1.039 mol%, O2:20.782 mol%, N2:78.179 mol%
+    composition: *comp
     ignition-type: *ign
     equivalence-ratio: 1.0
-...
-
-
 ...
 
 

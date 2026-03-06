@@ -1,0 +1,197 @@
+---
+file-authors:
+  - name: Ivette Alonso Garcia
+    ORCID: 
+file-version:
+chemked-version:
+reference:
+  doi:
+  authors:
+    - name: Ziwen Zhao
+    - name: Yeteng Wang
+    - name: JinChao Zhang
+    - name: Junhu Liang
+    - name: Yang Zhang
+    - name: Fengqi Zhao
+    - name: Quan-De Wang
+  journal: A shock-tube experimental and kinetic simulation study on the autoignition of methane at ultra-lean and lean conditions  
+  year: 2024
+  volume: 10
+  pages:
+  detail: This is an experimental and kinetic simulation study on the autoignition of methane at ultra-lean and lean conditions relevant to coalbed methane utilization.
+experiment-type: ignition delay
+apparatus:
+  kind: shock tube
+  institution: School of Environmental and Safety Engineering, North University of China, Taiyuan, PR China
+common-properties:
+  composition: &comp
+    kind: mole fraction
+    species:
+      - species-name: Methane
+        InChI: 1S/CH4/h1H4
+        amount:
+          - 1.0
+  ignition-type: &ign
+    target:
+    type:
+datapoints:
+  - temperature:
+      -1331.4 kelvin
+    ignition-delay:
+      - 962 us
+    pressure:
+      - 10.519 atm
+    composition: CH4:1.039 mol%, O2:20.782 mol%, N2:78.179 mol%
+    ignition-type: *ign
+    equivalence-ratio: 1.0
+  - temperature:
+      - 1355.7 kelvin
+    ignition-delay:
+      - 647 us
+    pressure:
+      - 10.078 atm
+    composition: CH4:1.039 mol%, O2:20.782 mol%, N2:78.179 mol%
+    ignition-type: *ign
+    equivalence-ratio: 1.0
+  - temperature:
+      - 1382.1 kelvin
+    ignition-delay:
+      - 530 us
+    pressure:
+      - 9.759 atm
+    composition: CH4:1.039 mol%, O2:20.782 mol%, N2:78.179 mol%
+    ignition-type: *ign
+    equivalence-ratio: 1.0
+  - temperature:
+      - 1447.9 kelvin
+    ignition-delay:
+      - 330 us
+    pressure:
+      - 9.724 atm
+    composition: CH4:1.039 mol%, O2:20.782 mol%, N2:78.179 mol%
+    ignition-type: *ign
+    equivalence-ratio: 1.0
+  - temperature:
+      - 1521.4 kelvin
+    ignition-delay:
+      - 180 us
+    pressure:
+      - 10.262 atm
+    composition: CH4:1.039 mol%, O2:20.782 mol%, N2:78.179 mol%
+    ignition-type: *ign
+    equivalence-ratio: 1.0
+  - temperature:
+      - 1558.8 kelvin
+    ignition-delay:
+      - 143 us
+    pressure:
+      - 10.102 atm
+    composition: CH4:1.039 mol%, O2:20.782 mol%, N2:78.179 mol%
+    ignition-type: *ign
+    equivalence-ratio: 1.0
+  - temperature:
+      - 1613.9 kelvin
+    ignition-delay:
+      - 105 us
+    pressure:
+      - 10.155 atm
+    composition: CH4:1.039 mol%, O2:20.782 mol%, N2:78.179 mol%
+    ignition-type: *ign
+    equivalence-ratio: 1.0
+  - temperature:
+      - 1664.3 kelvin
+    ignition-delay:
+      - 85 us
+    pressure:
+      - 10.728 atm
+    composition: CH4:1.039 mol%, O2:20.782 mol%, N2:78.179 mol%
+    ignition-type: *ign
+    equivalence-ratio: 1.0
+  - temperature:
+      - 1696.6 kelvin
+    ignition-delay:
+      - 72 us
+    pressure:
+      - 9.964 atm
+    composition: CH4:1.039 mol%, O2:20.782 mol%, N2:78.179 mol%
+    ignition-type: *ign
+    equivalence-ratio: 1.0
+~~~~~
+  - temperature:
+      - 1393.1 kelvin
+    ignition-delay:
+      - 919 us
+    pressure:
+      - 1.982 atm
+    composition: CH4:1.039 mol%, O2:20.782 mol%, N2:78.179 mol%
+    ignition-type: *ign
+    equivalence-ratio: 1.0
+ - temperature:
+      - 1439.7 kelvin
+    ignition-delay:
+      - 670 us
+    pressure:
+      - 1.99 atm
+    composition: CH4:1.039 mol%, O2:20.782 mol%, N2:78.179 mol%
+    ignition-type: *ign
+    equivalence-ratio: 1.0
+  - temperature:
+      - 1515.6 kelvin
+    ignition-delay:
+      - 40 us
+    pressure:
+      - 2.011 atm
+    composition: CH4:1.039 mol%, O2:20.782 mol%, N2:78.179 mol%
+    ignition-type: *ign
+    equivalence-ratio: 1.0
+  - temperature:
+      - 1565.8 kelvin
+    ignition-delay:
+      - 265 us
+    pressure:
+      - 2.038 atm
+    composition: CH4:1.039 mol%, O2:20.782 mol%, N2:78.179 mol%
+    ignition-type: *ign
+    equivalence-ratio: 1.0
+  - temperature:
+      - 1620.8 kelvin
+    ignition-delay:
+      - 187 us
+    pressure:
+      - 2.048 atm
+    composition: CH4:1.039 mol%, O2:20.782 mol%, N2:78.179 mol%
+    ignition-type: *ign
+    equivalence-ratio: 1.0
+  - temperature:
+      - 1645.1 kelvin
+    ignition-delay:
+      - 167 us
+    pressure:
+      - 1.888 atm
+    composition: CH4:1.039 mol%, O2:20.782 mol%, N2:78.179 mol%
+    ignition-type: *ign
+    equivalence-ratio: 1.0
+- temperature:
+      - 1753.5 kelvin
+    ignition-delay:
+      - 104 us
+    pressure:
+      - 2.048 atm
+    composition: CH4:1.039 mol%, O2:20.782 mol%, N2:78.179 mol%
+    ignition-type: *ign
+    equivalence-ratio: 1.0
+  - temperature:
+      - 1824.5 kelvin
+    ignition-delay:
+      - 70 us
+    pressure:
+      - 1.954 atm
+    composition: CH4:1.039 mol%, O2:20.782 mol%, N2:78.179 mol%
+    ignition-type: *ign
+    equivalence-ratio: 1.0
+...
+
+
+...
+
+

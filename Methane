@@ -44,7 +44,6 @@ datapoints:
     composition: CH4:0.05 mol%, O2:0.2 mol%, N2:0.75 mol%
     ignition-type: *ign
     equivalence-ratio: 0.5
-
   - temperature:
       - 1381.5 kelvin
     ignition-delay:
@@ -54,7 +53,6 @@ datapoints:
     composition: CH4:0.05 mol%, O2:0.2 mol%, N2:0.75 mol%
     ignition-type: *ign
     equivalence-ratio: 0.5
-
   - temperature:
       - 1430.4 kelvin
     ignition-delay:
@@ -64,7 +62,6 @@ datapoints:
     composition: CH4:0.05 mol%, O2:0.2 mol%, N2:0.75 mol%
     ignition-type: *ign
     equivalence-ratio: 0.5
-
   - temperature:
       - 1472.1 kelvin
     ignition-delay:
@@ -74,7 +71,6 @@ datapoints:
     composition: CH4:0.05 mol%, O2:0.2 mol%, N2:0.75 mol%
     ignition-type: *ign
     equivalence-ratio: 0.5
-
   - temperature:
       - 1488.8 kelvin
     ignition-delay:
@@ -84,7 +80,6 @@ datapoints:
     composition: CH4:0.05 mol%, O2:0.2 mol%, N2:0.75 mol%
     ignition-type: *ign
     equivalence-ratio: 0.5
-
   - temperature:
       - 1534.5 kelvin
     ignition-delay:
@@ -94,7 +89,6 @@ datapoints:
     composition: CH4:0.05 mol%, O2:0.2 mol%, N2:0.75 mol%
     ignition-type: *ign
     equivalence-ratio: 0.5
-
   - temperature:
       - 1578.5 kelvin
     ignition-delay:
@@ -104,7 +98,6 @@ datapoints:
     composition: CH4:0.05 mol%, O2:0.2 mol%, N2:0.75 mol%
     ignition-type: *ign
     equivalence-ratio: 0.5
-
   - temperature:
       - 1630.7 kelvin
     ignition-delay:
@@ -114,7 +107,6 @@ datapoints:
     composition: CH4:0.05 mol%, O2:0.2 mol%, N2:0.75 mol%
     ignition-type: *ign
     equivalence-ratio: 0.5
-
   - temperature:
       - 1712.1 kelvin
     ignition-delay:
@@ -124,9 +116,8 @@ datapoints:
     composition: CH4:0.05 mol%, O2:0.2 mol%, N2:0.75 mol%
     ignition-type: *ign
     equivalence-ratio: 0.5
-
   - temperature:
-      - 17.34.9 kelvin
+      - 1734.9 kelvin
     ignition-delay:
       - 58 us
     pressure:
@@ -134,4 +125,82 @@ datapoints:
     composition: CH4:0.05 mol%, O2:0.2 mol%, N2:0.75 mol%
     ignition-type: *ign
     equivalence-ratio: 0.5
+~~~
+ - temperature:
+      - 1395.9 kelvin
+    ignition-delay:
+      - 1800 us
+    pressure:
+      - 1.989 atm
+    composition: CH4:0.05 mol%, O2:0.2 mol%, N2:0.75 mol%
+    ignition-type: *ign
+    equivalence-ratio: 0.5
+  - temperature:
+      - 1467.2 kelvin
+    ignition-delay:
+      - 920 us
+    pressure:
+      - 1.919 atm
+    composition: CH4:0.05 mol%, O2:0.2 mol%, N2:0.75 mol%
+    ignition-type: *ign
+    equivalence-ratio: 0.5
+  - temperature:
+      - 1543.2 kelvin
+    ignition-delay:
+      - 596 us
+    pressure:
+      - 1.984 atm
+    composition: CH4:0.05 mol%, O2:0.2 mol%, N2:0.75 mol%
+    ignition-type: *ign
+    equivalence-ratio: 0.5
+  - temperature:
+      - 1601.1 kelvin
+    ignition-delay:
+      - 398 us
+    pressure:
+      - 2.002 atm
+    composition: CH4:0.05 mol%, O2:0.2 mol%, N2:0.75 mol%
+    ignition-type: *ign
+    equivalence-ratio: 0.5
+  - temperature:
+      - 1699.9 kelvin
+    ignition-delay:
+      - 249 us
+    pressure:
+      - 2 atm
+    composition: CH4:0.05 mol%, O2:0.2 mol%, N2:0.75 mol%
+    ignition-type: *ign
+    equivalence-ratio: 0.5
+- temperature:
+      - 1774.3 kelvin
+    ignition-delay:
+      - 162 us
+    pressure:
+      - 1.949 atm
+    composition: CH4:0.05 mol%, O2:0.2 mol%, N2:0.75 mol%
+    ignition-type: *ign
+    equivalence-ratio: 0.5
+  - temperature:
+      - 1853.3 kelvin
+    ignition-delay:
+      - 117 us
+    pressure:
+      - 1.981 atm
+    composition: CH4:0.05 mol%, O2:0.2 mol%, N2:0.75 mol%
+    ignition-type: *ign
+    equivalence-ratio: 0.5
+  - temperature:
+      - 1904.8 kelvin
+    ignition-delay:
+      - 100 us
+    pressure:
+      - 2.009 atm
+    composition: CH4:0.05 mol%, O2:0.2 mol%, N2:0.75 mol%
+    ignition-type: *ign
+    equivalence-ratio: 0.5
+
+
 ...
+
+
+

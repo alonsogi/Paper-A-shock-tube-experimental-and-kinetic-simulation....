@@ -32,8 +32,8 @@ common-properties:
         amount:
           - 0.05
   ignition-type: &ign
-    target:
-    type:
+    target: OH*
+    type:d/dt max 
 datapoints:
   - temperature:
       -1356.1 kelvin

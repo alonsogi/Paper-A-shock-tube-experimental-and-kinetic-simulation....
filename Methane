@@ -1,7 +1,7 @@
 ---
 file-authors:
   - name: Ivette Alonso Garcia
-    ORCID: 
+    ORCID: 0009-0007-4064-7836 
 file-version:
 chemked-version:
 reference:
@@ -14,7 +14,7 @@ reference:
     - name: Yang Zhang
     - name: Fengqi Zhao
     - name: Quan-De Wang
-  journal: Heliyon - A cell press journal
+  journal: Heliyon - A Cell Press journal
   year: 2024
   volume: 10
   pages: e34204
@@ -41,10 +41,10 @@ common-properties:
           - 0.75
   ignition-type: &ign
     target: Pressure
-    type:d/dt max
+    type: d/dt max
 datapoints:
   - temperature:
-      -1340.7 kelvin
+      - 1340.7 kelvin
     ignition-delay:
       - 1109 us
     pressure:

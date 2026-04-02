@@ -1,7 +1,7 @@
 ---
 file-authors:
   - name: Ivette Alonso Garcia
-    ORCID: 
+    ORCID: 0009-0007-4064-7836
 file-version:
 chemked-version:
 reference:
@@ -36,7 +36,7 @@ common-properties:
         amount:
           - 0.20782
      - species-name: Nitrogen
-        InChI:1S/N2/c1-2
+        InChI: 1S/N2/c1-2
         amount:
           - 0.78179
   ignition-type: &ign
@@ -44,7 +44,7 @@ common-properties:
     type: d/dt max
 datapoints:
   - temperature:
-      -1331.4 kelvin
+      - 1331.4 kelvin
     ignition-delay:
       - 962 us
     pressure:

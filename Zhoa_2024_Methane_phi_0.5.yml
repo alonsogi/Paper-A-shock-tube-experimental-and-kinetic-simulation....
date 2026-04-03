@@ -2,8 +2,8 @@
 file-authors:
   - name: Ivette Alonso Garcia
     ORCID: 0009-0007-4064-7836 
-file-version:
-chemked-version:
+file-version: 0
+chemked-version: 0.4.1
 reference:
   doi: 10.1016/j.heliyon.2024.e34204 
   authors:
@@ -48,7 +48,7 @@ datapoints:
     ignition-delay:
       - 1109 us
     pressure:
-      - 9.718 atm
+      - 9.718 bar
     composition: *comp
     ignition-type: *ign
     equivalence-ratio: 0.5
@@ -57,7 +57,7 @@ datapoints:
     ignition-delay:
       - 743 us
     pressure:
-      - 9.748 atm
+      - 9.748 bar
     composition: *comp
     ignition-type: *ign
     equivalence-ratio: 0.5
@@ -66,7 +66,7 @@ datapoints:
     ignition-delay:
       - 488 us
     pressure:
-      - 10.028 atm
+      - 10.028 bar
     composition: *comp
     ignition-type: *ign
     equivalence-ratio: 0.5
@@ -75,7 +75,7 @@ datapoints:
     ignition-delay:
       - 360 us
     pressure:
-      - 9.9 atm
+      - 9.9 bar
     composition: *comp
     ignition-type: *ign
     equivalence-ratio: 0.5
@@ -84,7 +84,7 @@ datapoints:
     ignition-delay:
       - 310 us
     pressure:
-      - 9.86 atm
+      - 9.86 bar
     composition: *comp
     ignition-type: *ign
     equivalence-ratio: 0.5
@@ -93,7 +93,7 @@ datapoints:
     ignition-delay:
       - 203 us
     pressure:
-      - 9.813 atm
+      - 9.813 bar
     composition: *comp
     ignition-type: *ign
     equivalence-ratio: 0.5
@@ -102,7 +102,7 @@ datapoints:
     ignition-delay:
       - 145 us
     pressure:
-      - 10.34 atm
+      - 10.34 bar
     composition: *comp
     ignition-type: *ign
     equivalence-ratio: 0.5
@@ -111,7 +111,7 @@ datapoints:
     ignition-delay:
       - 104 us
     pressure:
-      - 10.35 atm
+      - 10.35 bar
     composition: *comp
     ignition-type: *ign
     equivalence-ratio: 0.5
@@ -120,7 +120,7 @@ datapoints:
     ignition-delay:
       - 66 us
     pressure:
-      - 10.13 atm
+      - 10.13 bar
     composition: *comp
     ignition-type: *ign
     equivalence-ratio: 0.5
@@ -129,7 +129,7 @@ datapoints:
     ignition-delay:
       - 58 us
     pressure:
-      - 9.74 atm
+      - 9.74 bar
     composition: *comp
     ignition-type: *ign
     equivalence-ratio: 0.5
@@ -138,7 +138,7 @@ datapoints:
     ignition-delay:
       - 1800 us
     pressure:
-      - 1.989 atm
+      - 1.989 bar
     composition: *comp
     ignition-type: *ign
     equivalence-ratio: 0.5
@@ -147,7 +147,7 @@ datapoints:
     ignition-delay:
       - 920 us
     pressure:
-      - 1.919 atm
+      - 1.919 bar
     composition: *comp
     ignition-type: *ign
     equivalence-ratio: 0.5
@@ -156,7 +156,7 @@ datapoints:
     ignition-delay:
       - 596 us
     pressure:
-      - 1.984 atm
+      - 1.984 bar
     composition: *comp
     ignition-type: *ign
     equivalence-ratio: 0.5
@@ -165,7 +165,7 @@ datapoints:
     ignition-delay:
       - 398 us
     pressure:
-      - 2.002 atm
+      - 2.002 bar
     composition: *comp
     ignition-type: *ign
     equivalence-ratio: 0.5
@@ -174,7 +174,7 @@ datapoints:
     ignition-delay:
       - 249 us
     pressure:
-      - 2 atm
+      - 2 bar
     composition: *comp
     ignition-type: *ign
     equivalence-ratio: 0.5
@@ -183,7 +183,7 @@ datapoints:
     ignition-delay:
       - 162 us
     pressure:
-      - 1.949 atm
+      - 1.949 bar
     composition: *comp
     ignition-type: *ign
     equivalence-ratio: 0.5
@@ -192,7 +192,7 @@ datapoints:
     ignition-delay:
       - 117 us
     pressure:
-      - 1.981 atm
+      - 1.981 bar
     composition: *comp
     ignition-type: *ign
     equivalence-ratio: 0.5
@@ -201,11 +201,8 @@ datapoints:
     ignition-delay:
       - 100 us
     pressure:
-      - 2.009 atm
+      - 2.009 bar
     composition: *comp
     ignition-type: *ign
     equivalence-ratio: 0.5
 ...
-
-
-

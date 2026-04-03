@@ -27,15 +27,15 @@ common-properties:
   composition: &comp
     kind: mole fraction
     species:
-      - species-name: Methane
+      - species-name: methane
         InChI: 1S/CH4/h1H4
         amount:
           - 0.00522
-      - species-name: Oxygen 
+      - species-name: oxygen 
         InChI: 1S/O2/c1-2
         amount:
           - 0.2089
-     - species-name: Nitrogen
+     - species-name: nitrogen
         InChI: 1S/N2/c1-2
         amount:
           - 0.78588
@@ -48,7 +48,7 @@ datapoints:
     ignition-delay:
       - 760 us
     pressure:
-      - 10.111 atm
+      - 10.111 bar
     composition: *comp
     ignition-type: *ign
     equivalence-ratio: 0.05
@@ -57,7 +57,7 @@ datapoints:
     ignition-delay:
       - 444 us
     pressure:
-      - 10.045 atm
+      - 10.045 bar
     composition: *comp
     ignition-type: *ign
     equivalence-ratio: 0.05
@@ -66,7 +66,7 @@ datapoints:
     ignition-delay:
       - 304 us
     pressure:
-      - 10.562 atm
+      - 10.562 bar
     composition: *comp
     ignition-type: *ign
     equivalence-ratio: 0.05
@@ -75,7 +75,7 @@ datapoints:
     ignition-delay:
       - 254 us
     pressure:
-      - 9.96 atm
+      - 9.96 bar
     composition: *comp
     ignition-type: *ign
     equivalence-ratio: 0.05
@@ -84,7 +84,7 @@ datapoints:
     ignition-delay:
       - 158 us
     pressure:
-      - 10.08 atm
+      - 10.08 bar
     composition: *comp
     ignition-type: *ign
     equivalence-ratio: 0.05
@@ -93,7 +93,7 @@ datapoints:
     ignition-delay:
       - 97 us
     pressure:
-      - 10.237 atm
+      - 10.237 bar
     composition: *comp
     ignition-type: *ign
     equivalence-ratio: 0.05
@@ -102,7 +102,7 @@ datapoints:
     ignition-delay:
       - 72 us
     pressure:
-      - 10.22 atm
+      - 10.22 bar
     composition: *comp
     ignition-type: *ign
     equivalence-ratio: 0.05
@@ -111,7 +111,7 @@ datapoints:
     ignition-delay:
       - 53 us
     pressure:
-      - 10.055 atm
+      - 10.055 bar
     composition: *comp
     ignition-type: *ign
     equivalence-ratio: 0.05
@@ -120,7 +120,7 @@ datapoints:
     ignition-delay:
       - 220 us
     pressure:
-      - 1.959 atm
+      - 1.959 bar
     composition: *comp
     ignition-type: *ign
     equivalence-ratio: 0.05
@@ -129,7 +129,7 @@ datapoints:
     ignition-delay:
       - 153 us
     pressure:
-      - 1.981 atm
+      - 1.981 bar
     composition: *comp
     ignition-type: *ign
     equivalence-ratio: 0.05
@@ -138,7 +138,7 @@ datapoints:
     ignition-delay:
       - 112 us
     pressure:
-      - 2.019 atm
+      - 2.019 bar
     composition: *comp
     ignition-type: *ign
     equivalence-ratio: 0.05
@@ -147,7 +147,7 @@ datapoints:
     ignition-delay:
       - 71 us
     pressure:
-      - 1.986 atm
+      - 1.986 bar
     composition: *comp
     ignition-type: *ign
     equivalence-ratio: 0.05

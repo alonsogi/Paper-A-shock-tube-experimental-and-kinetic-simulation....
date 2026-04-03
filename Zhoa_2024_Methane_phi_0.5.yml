@@ -27,15 +27,15 @@ common-properties:
   composition: &comp
     kind: mole fraction
     species:
-      - species-name: Methane
+      - species-name: methane
         InChI: 1S/CH4/h1H4
         amount:
           - 0.05
-      - species-name: Oxygen 
+      - species-name: oxygen 
         InChI: 1S/O2/c1-2
         amount:
           - 0.2
-     - species-name: Nitrogen
+     - species-name: nitrogen
         InChI: 1S/N2/c1-2
         amount:
           - 0.75

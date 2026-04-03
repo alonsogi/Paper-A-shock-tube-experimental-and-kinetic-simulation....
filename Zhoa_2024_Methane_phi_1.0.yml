@@ -2,8 +2,8 @@
 file-authors:
   - name: Ivette Alonso Garcia
     ORCID: 0009-0007-4064-7836
-file-version:
-chemked-version:
+file-version: 0
+chemked-version: 0.4.1
 reference:
   doi: 10.1016/j.heliyon.2024.e34204 
   authors:
@@ -27,15 +27,15 @@ common-properties:
   composition: &comp
     kind: mole fraction
     species:
-      - species-name: Methane
+      - species-name: methane
         InChI: 1S/CH4/h1H4
         amount:
           - 0.01039
-      - species-name: Oxygen 
+      - species-name: oxygen 
         InChI: 1S/O2/c1-2
         amount:
           - 0.20782
-     - species-name: Nitrogen
+     - species-name: nitrogen
         InChI: 1S/N2/c1-2
         amount:
           - 0.78179
@@ -48,7 +48,7 @@ datapoints:
     ignition-delay:
       - 962 us
     pressure:
-      - 10.519 atm
+      - 10.519 bar
     composition: *comp
     ignition-type: *ign
     equivalence-ratio: 1.0
@@ -57,7 +57,7 @@ datapoints:
     ignition-delay:
       - 647 us
     pressure:
-      - 10.078 atm
+      - 10.078 bar
     composition: *comp
     ignition-type: *ign
     equivalence-ratio: 1.0
@@ -66,7 +66,7 @@ datapoints:
     ignition-delay:
       - 530 us
     pressure:
-      - 9.759 atm
+      - 9.759 bar
     composition: *comp
     ignition-type: *ign
     equivalence-ratio: 1.0
@@ -75,7 +75,7 @@ datapoints:
     ignition-delay:
       - 330 us
     pressure:
-      - 9.724 atm
+      - 9.724 bar
     composition: *comp
     ignition-type: *ign
     equivalence-ratio: 1.0
@@ -84,7 +84,7 @@ datapoints:
     ignition-delay:
       - 180 us
     pressure:
-      - 10.262 atm
+      - 10.262 bar
     composition: *comp
     ignition-type: *ign
     equivalence-ratio: 1.0
@@ -93,7 +93,7 @@ datapoints:
     ignition-delay:
       - 143 us
     pressure:
-      - 10.102 atm
+      - 10.102 bar
     composition: *comp
     ignition-type: *ign
     equivalence-ratio: 1.0
@@ -102,7 +102,7 @@ datapoints:
     ignition-delay:
       - 105 us
     pressure:
-      - 10.155 atm
+      - 10.155 bar
     composition: *comp
     ignition-type: *ign
     equivalence-ratio: 1.0
@@ -111,7 +111,7 @@ datapoints:
     ignition-delay:
       - 85 us
     pressure:
-      - 10.728 atm
+      - 10.728 bar
     composition: *comp
     ignition-type: *ign
     equivalence-ratio: 1.0
@@ -120,7 +120,7 @@ datapoints:
     ignition-delay:
       - 72 us
     pressure:
-      - 9.964 atm
+      - 9.964 bar
     composition: *comp
     ignition-type: *ign
     equivalence-ratio: 1.0
@@ -129,7 +129,7 @@ datapoints:
     ignition-delay:
       - 919 us
     pressure:
-      - 1.982 atm
+      - 1.982 bar
     composition: *comp
     ignition-type: *ign
     equivalence-ratio: 1.0
@@ -138,7 +138,7 @@ datapoints:
     ignition-delay:
       - 670 us
     pressure:
-      - 1.99 atm
+      - 1.99 bar
     composition: *comp
     ignition-type: *ign
     equivalence-ratio: 1.0
@@ -147,7 +147,7 @@ datapoints:
     ignition-delay:
       - 40 us
     pressure:
-      - 2.011 atm
+      - 2.011 bar
     composition: *comp
     ignition-type: *ign
     equivalence-ratio: 1.0
@@ -156,7 +156,7 @@ datapoints:
     ignition-delay:
       - 265 us
     pressure:
-      - 2.038 atm
+      - 2.038 bar
     composition: *comp
     ignition-type: *ign
     equivalence-ratio: 1.0
@@ -165,7 +165,7 @@ datapoints:
     ignition-delay:
       - 187 us
     pressure:
-      - 2.048 atm
+      - 2.048 bar
     composition: *comp
     ignition-type: *ign
     equivalence-ratio: 1.0
@@ -174,7 +174,7 @@ datapoints:
     ignition-delay:
       - 167 us
     pressure:
-      - 1.888 atm
+      - 1.888 bar
     composition: *comp
     ignition-type: *ign
     equivalence-ratio: 1.0
@@ -183,7 +183,7 @@ datapoints:
     ignition-delay:
       - 104 us
     pressure:
-      - 2.048 atm
+      - 2.048 bar
     composition: *comp
     ignition-type: *ign
     equivalence-ratio: 1.0
@@ -192,10 +192,8 @@ datapoints:
     ignition-delay:
       - 70 us
     pressure:
-      - 1.954 atm
+      - 1.954 bar
     composition: *comp
     ignition-type: *ign
     equivalence-ratio: 1.0
 ...
-
-

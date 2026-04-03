@@ -36,7 +36,7 @@ common-properties:
         amount:
           - 0.2
      - species-name: Nitrogen
-        InChI:1S/N2/c1-2
+        InChI: 1S/N2/c1-2
         amount:
           - 0.75
   ignition-type: &ign

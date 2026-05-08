@@ -46,7 +46,8 @@ datapoints:
   - temperature:
       - 1340.7 kelvin
     uncertainty-type: absolute
-    uncertainty: 20 kelvin
+    uncertainty: 
+      - 20 kelvin
     ignition-delay:
       - 1109 us
     uncertainty-type: relative
@@ -60,7 +61,8 @@ datapoints:
   - temperature:
       - 1381.5 kelvin
     uncertainty-type: absolute
-    uncertainty: 20 kelvin
+    uncertainty: 
+      - 20 kelvin
     ignition-delay:
       - 743 us
     uncertainty-type: relative
@@ -74,7 +76,8 @@ datapoints:
   - temperature:
       - 1430.4 kelvin
     uncertainty-type: absolute
-    uncertainty: 20 kelvin
+    uncertainty: 
+      - 20 kelvin
     ignition-delay:
       - 488 us
     uncertainty-type: relative
@@ -88,7 +91,8 @@ datapoints:
   - temperature:
       - 1472.1 kelvin
     uncertainty-type: absolute
-    uncertainty: 20 kelvin
+    uncertainty: 
+      - 20 kelvin
     ignition-delay:
       - 360 us
     uncertainty-type: relative
@@ -102,7 +106,8 @@ datapoints:
   - temperature:
       - 1488.8 kelvin
     uncertainty-type: absolute
-    uncertainty: 20 kelvin
+    uncertainty: 
+      - 20 kelvin
     ignition-delay:
       - 310 us
     uncertainty-type: relative
@@ -116,7 +121,8 @@ datapoints:
   - temperature:
       - 1534.5 kelvin
     uncertainty-type: absolute
-    uncertainty: 20 kelvin
+    uncertainty: 
+      - 20 kelvin
     ignition-delay:
       - 203 us
     uncertainty-type: relative
@@ -130,7 +136,8 @@ datapoints:
   - temperature:
       - 1578.5 kelvin
     uncertainty-type: absolute
-    uncertainty: 20 kelvin
+    uncertainty: 
+      - 20 kelvin
     ignition-delay:
       - 145 us
     uncertainty-type: relative
@@ -144,7 +151,8 @@ datapoints:
   - temperature:
       - 1630.7 kelvin
     uncertainty-type: absolute
-    uncertainty: 20 kelvin
+    uncertainty: 
+      - 20 kelvin
     ignition-delay:
       - 104 us
     uncertainty-type: relative
@@ -158,7 +166,8 @@ datapoints:
   - temperature:
       - 1712.1 kelvin
     uncertainty-type: absolute
-    uncertainty: 20 kelvin
+    uncertainty:
+      - 20 kelvin
     ignition-delay:
       - 66 us
     uncertainty-type: relative
@@ -172,7 +181,8 @@ datapoints:
   - temperature:
       - 1734.9 kelvin
     uncertainty-type: absolute
-    uncertainty: 20 kelvin
+    uncertainty: 
+      - 20 kelvin
     ignition-delay:
       - 58 us
     uncertainty-type: relative
@@ -186,7 +196,8 @@ datapoints:
  - temperature:
       - 1395.9 kelvin
     uncertainty-type: absolute
-    uncertainty: 20 kelvin
+    uncertainty: 
+      - 20 kelvin
     ignition-delay:
       - 1800 us
     uncertainty-type: relative
@@ -200,7 +211,8 @@ datapoints:
   - temperature:
       - 1467.2 kelvin
     uncertainty-type: absolute
-    uncertainty: 20 kelvin
+    uncertainty: 
+      - 20 kelvin
     ignition-delay:
       - 920 us
     uncertainty-type: relative
@@ -214,7 +226,8 @@ datapoints:
   - temperature:
       - 1543.2 kelvin
     uncertainty-type: absolute
-    uncertainty: 20 kelvin
+    uncertainty: 
+      - 20 kelvin
     ignition-delay:
       - 596 us
     uncertainty-type: relative
@@ -228,7 +241,8 @@ datapoints:
   - temperature:
       - 1601.1 kelvin
     uncertainty-type: absolute
-    uncertainty: 20 kelvin
+    uncertainty: 
+      - 20 kelvin
     ignition-delay:
       - 398 us
     uncertainty-type: relative
@@ -242,7 +256,8 @@ datapoints:
   - temperature:
       - 1699.9 kelvin
     uncertainty-type: absolute
-    uncertainty: 20 kelvin
+    uncertainty: 
+      - 20 kelvin
     ignition-delay:
       - 249 us
     uncertainty-type: relative
@@ -256,7 +271,8 @@ datapoints:
 - temperature:
       - 1774.3 kelvin
     uncertainty-type: absolute
-    uncertainty: 20 kelvin
+    uncertainty: 
+      - 20 kelvin
     ignition-delay:
       - 162 us
     uncertainty-type: relative
@@ -270,7 +286,8 @@ datapoints:
   - temperature:
       - 1853.3 kelvin
     uncertainty-type: absolute
-    uncertainty: 20 kelvin
+    uncertainty: 
+      - 20 kelvin
     ignition-delay:
       - 117 us
     uncertainty-type: relative
@@ -284,7 +301,8 @@ datapoints:
   - temperature:
       - 1904.8 kelvin
     uncertainty-type: absolute
-    uncertainty: 20 kelvin
+    uncertainty: 
+      - 20 kelvin
     ignition-delay:
       - 100 us
     uncertainty-type: relative
